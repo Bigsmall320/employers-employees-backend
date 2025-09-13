@@ -1,0 +1,32 @@
+###get all employees
+GET http://localhost:3500/employees
+
+###create new employee
+POST http://localhost:3500/employees
+Content-Type: application/json  
+
+{
+    "firstname": "Jason",
+    "lastname": "Statham"
+}
+
+###update employee
+PUT http://localhost:3500/employees
+Content-Type: application/json  
+
+{
+    "id": 3,
+    "firstname": "Rai",
+    "lastname": "Salim"
+}
+
+###delete employee
+DELETE http://localhost:3500/employees
+Content-Type: application/json  
+
+{
+    "id": 1
+}
+
+###get employee by id
+GET http://localhost:3500/employees/3

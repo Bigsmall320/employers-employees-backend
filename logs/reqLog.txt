@@ -183,3 +183,15 @@
 20250913	07:32:26	88a0e386-e4a1-4e3c-b918-241e8cdd5538	GET	undefined	/css/style.css
 20250913	07:32:40	fc9b885f-60c5-4f4c-9482-77ed3860461d	GET	undefined	/
 20250913	07:32:40	8a9ed39b-8385-49b6-8cc7-499e78262fcf	GET	undefined	/css/style.css
+20250913	08:01:59	c952e616-69ee-411e-ad54-fef0ff0b332c	GET	undefined	/
+20250913	08:01:59	1d469976-8b1f-4e81-8fda-d5428d7354d7	GET	undefined	/css/style.css
+20250913	08:09:28	3ed0033e-e34f-4dd1-8140-d468c9760e4e	GET	undefined	/employees
+20250913	08:10:14	d3d9acc9-3495-408a-b6d6-cd80cfe766ed	POST	undefined	/employees
+20250913	08:11:21	b1716042-ef72-4fda-9539-793a9687bd22	PUT	undefined	/employees
+20250913	08:11:57	7aa73f5d-9414-4fdd-9ae6-5714dacc6dfa	DELETE	undefined	/employees
+20250913	08:12:11	3a8a25c1-e19f-4a78-aa90-faf5c7abd50d	GET	undefined	/employees/2
+20250913	08:19:36	1c3f2131-8dbe-4c18-9f6b-e2285e344d93	GET	undefined	/employees
+20250913	08:20:32	61d6b9c8-501f-4bcc-9f91-b05858634fd4	POST	undefined	/employees
+20250913	08:21:02	e4c8ac8b-69ca-41ff-a19f-dadfdd34eaf0	PUT	undefined	/employees
+20250913	08:21:32	1f3e3e83-08e7-465c-a0ce-b0080dcd5031	GET	undefined	/employees/3
+20250913	08:27:21	373cfc7f-0abb-4da6-bf2d-5b4c638863f1	GET	undefined	/employees
