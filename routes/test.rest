@@ -1,0 +1,17 @@
+###check registration
+POST http://localhost:3500/register
+Content-Type: application/json  
+
+{
+    "user": "Bien Chimano",
+    "pwd": "sautisol"
+}
+
+###check login
+POST http://localhost:3500/auth
+Content-Type: application/json  
+
+{
+    "user": "Bien Chimano",
+    "pwd": "sautisol"
+}

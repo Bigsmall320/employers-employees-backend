@@ -19,12 +19,13 @@ app.use(express.urlencoded({ extended: false }));
 //built-in middleware for json
 app.use(express.json());
 
-
 //serve static files
 app.use('/', express.static(path.join(__dirname, '/public')));
 
 //routes
 app.use('/', require('./routes/root'));
+app.use('/register', require('./routes/register'));
+app.use('/auth', require('./routes/auth'));
 app.use('/employees', require('./routes/api/employees'));
 
 //i tied this but the client side preferred the json to the user friendly 404 page

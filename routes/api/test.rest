@@ -6,8 +6,8 @@ POST http://localhost:3500/employees
 Content-Type: application/json  
 
 {
-    "firstname": "Jason",
-    "lastname": "Statham"
+    "firstname": "David",
+    "lastname": "Jesse"
 }
 
 ###update employee
@@ -25,7 +25,7 @@ DELETE http://localhost:3500/employees
 Content-Type: application/json  
 
 {
-    "id": 1
+    "id": 2
 }
 
 ###get employee by id
