@@ -223,3 +223,9 @@
 20250913	10:12:48	d19aab7a-b20d-4d74-9661-4cd6ca8f74cf	POST	undefined	/auth
 20250913	10:14:00	7e385c8d-3985-40dd-a629-1d5097cbdb63	POST	undefined	/auth
 20250913	10:14:06	167f2e72-c6f4-4879-8f06-ff5cc9e02b9b	POST	undefined	/auth
+20250917	07:48:56	ec61ed47-9263-4714-9fca-c4e35d189a3a	GET	undefined	/
+20250917	07:48:57	e0407d1a-de56-45a2-849a-de7891ab7d47	GET	undefined	/css/style.css
+20250917	07:48:57	4b468431-8ba9-4e3e-b75d-51efc733fc56	GET	undefined	/favicon.ico
+20250917	07:49:14	d0994646-4434-4391-80f0-6ffe3f5b57fc	POST	undefined	/register
+20250917	07:49:21	bbf71212-1b40-4e16-9023-1edd76d35ef2	GET	undefined	/new-page.html
+20250917	07:49:21	5de8a255-6c9e-4724-a88a-713c081dc06f	GET	undefined	/css/style.css
