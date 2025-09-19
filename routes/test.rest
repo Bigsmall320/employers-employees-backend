@@ -15,3 +15,13 @@ Content-Type: application/json
     "user": "Bien Chimano",
     "pwd": "sautisol"
 }
+
+###check refresh token
+GET http://localhost:3500/refresh
+content-type: application/json
+Cookie: jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkJpZW4gQ2hpbWFubyIsImlhdCI6MTc1ODE3NDE5MCwiZXhwIjoxNzU4MjYwNTkwfQ.4uD3Qhliv2ZkoNYPWgxGsoUSz9410ceDUZVwaYYtsI4
+
+###check logout
+GET http://localhost:3500/logout
+content-type: application/json
+Cookie: jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkJpZW4gQ2hpbWFubyIsImlhdCI6MTc1ODI1NjU2MywiZXhwIjoxNzU4MzQyOTYzfQ.QMpjdqKU21q_yVxIXhP-FrpBZjxU3E6SZjvYsQp50_Y

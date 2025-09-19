@@ -18,3 +18,10 @@
 20250913	07:31:07	93cf442c-afe9-42cd-b667-fc3c74e1d975	ReferenceError: data is not defined
 20250913	07:31:14	2d70da4f-cbc5-4c05-8dc0-cf5dd3dcff6e	ReferenceError: data is not defined
 20250913	07:31:17	694085f0-261f-44c1-b749-f83fa10bd158	ReferenceError: data is not defined
+20250917	09:43:02	8a081d2a-02e2-4dc0-a0be-fab7461a089f	TypeError: Cannot read properties of undefined (reading 'split')
+20250917	09:47:33	1cf13bbf-2e9b-4d4a-a97a-5e80e0334ba3	TypeError: Cannot read properties of undefined (reading 'split')
+20250917	09:47:45	8f3ef996-7988-4654-9a03-6edaf7135514	TypeError: Cannot read properties of undefined (reading 'split')
+20250917	09:47:59	54a721b4-2f74-4e6b-8dac-bece9880f551	TypeError: Cannot read properties of undefined (reading 'split')
+20250917	09:48:08	127c0eec-bcc3-4faf-89d3-913ce9abb56b	TypeError: Cannot read properties of undefined (reading 'split')
+20250917	09:48:52	77cb19f6-9572-4122-9cd5-c07fa56fd6ea	TypeError: Cannot read properties of undefined (reading 'split')
+20250917	09:51:04	5848424f-c25b-44b1-ac5a-97eca8e15945	TypeError: Cannot read properties of undefined (reading 'split')

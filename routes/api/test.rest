@@ -1,12 +1,14 @@
 ###get all employees
 GET http://localhost:3500/employees
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkJpZW4gQ2hpbWFubyIsImlhdCI6MTc1ODE3NDI1NSwiZXhwIjoxNzU4MTc0MzE1fQ.d1623-JRVR41y340ZOEoNjYxRfyLX8gEZvGRfaAZvrs
 
 ###create new employee
 POST http://localhost:3500/employees
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkJpZW4gQ2hpbWFubyIsImlhdCI6MTc1ODE3MDU3MSwiZXhwIjoxNzU4MTcwNjMxfQ.0CmIjLb8d5vPKGRHc5lgyYvvKKi9zGmUgVmTKBqnnEw
 Content-Type: application/json  
 
 {
-    "firstname": "David",
+    "firstname": "joseph",
     "lastname": "Jesse"
 }
 
