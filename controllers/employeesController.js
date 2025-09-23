@@ -46,8 +46,8 @@ const updateEmployee = (req, res) => {
     if (!employee) {
         return res.status(400).json({ "message": `Employee ID ${req.body.id} not found.` });
     }
-    if (req.body.firstname) employee.firstName = req.body.firstname;
-    if (req.body.lastname) employee.lastName = req.body.lastname;
+    if (req.body.firstname) employee.firstname = req.body.firstname;
+    if (req.body.lastname) employee.lastname = req.body.lastname;
     
     const filteredArray = data.employees.filter(emp => emp.id !== parseInt(req.body.id));
     const unsortedArray = [...filteredArray, employee];

@@ -1,10 +1,10 @@
 ###get all employees
 GET http://localhost:3500/employees
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkJpZW4gQ2hpbWFubyIsImlhdCI6MTc1ODE3NDI1NSwiZXhwIjoxNzU4MTc0MzE1fQ.d1623-JRVR41y340ZOEoNjYxRfyLX8gEZvGRfaAZvrs
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJ1c2VybmFtZSI6IkJpZW4gQ2hpbWFubyIsInJvbGVzIjpbMjAwMSwxOTg0LDUxNTBdfSwiaWF0IjoxNzU4MzQ3MzQ5LCJleHAiOjE3NTgzNDc0Njl9.-uf8X7hUbkvy2H3ghplgPby3g8DovmAvvxMufIMuVEM
 
 ###create new employee
 POST http://localhost:3500/employees
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkJpZW4gQ2hpbWFubyIsImlhdCI6MTc1ODE3MDU3MSwiZXhwIjoxNzU4MTcwNjMxfQ.0CmIjLb8d5vPKGRHc5lgyYvvKKi9zGmUgVmTKBqnnEw
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJ1c2VybmFtZSI6IkJpZW4gQ2hpbWFubyIsInJvbGVzIjpbMjAwMSwxOTg0LDUxNTBdfSwiaWF0IjoxNzU4MzQ3MzQ5LCJleHAiOjE3NTgzNDc0Njl9.-uf8X7hUbkvy2H3ghplgPby3g8DovmAvvxMufIMuVEM
 Content-Type: application/json  
 
 {
@@ -13,8 +13,9 @@ Content-Type: application/json
 }
 
 ###update employee
-PUT http://localhost:3500/employees
-Content-Type: application/json  
+PUT http://localhost:3500/employees 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJ1c2VybmFtZSI6IkJpZW4gQ2hpbWFubyIsInJvbGVzIjpbMjAwMSwxOTg0LDUxNTBdfSwiaWF0IjoxNzU4MzQ3MzQ5LCJleHAiOjE3NTgzNDc0Njl9.-uf8X7hUbkvy2H3ghplgPby3g8DovmAvvxMufIMuVEM
+Content-Type: application/json 
 
 {
     "id": 3,
@@ -25,9 +26,10 @@ Content-Type: application/json
 ###delete employee
 DELETE http://localhost:3500/employees
 Content-Type: application/json  
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJ1c2VybmFtZSI6IkJpZW4gQ2hpbWFubyIsInJvbGVzIjpbMjAwMSwxOTg0LDUxNTBdfSwiaWF0IjoxNzU4MzQ3MzQ5LCJleHAiOjE3NTgzNDc0Njl9.-uf8X7hUbkvy2H3ghplgPby3g8DovmAvvxMufIMuVEM
 
 {
-    "id": 2
+    "id": 4
 }
 
 ###get employee by id

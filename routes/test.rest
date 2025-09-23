@@ -3,8 +3,8 @@ POST http://localhost:3500/register
 Content-Type: application/json  
 
 {
-    "user": "Bien Chimano",
-    "pwd": "sautisol"
+    "user": "Tony Mwailengo",
+    "pwd": "riperbi"
 }
 
 ###check login
