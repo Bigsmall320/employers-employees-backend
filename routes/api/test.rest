@@ -1,36 +1,56 @@
 ###get all employees
 GET http://localhost:3500/employees
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJ1c2VybmFtZSI6IkJpZW4gQ2hpbWFubyIsInJvbGVzIjpbMjAwMSwxOTg0LDUxNTBdfSwiaWF0IjoxNzU4MzQ3MzQ5LCJleHAiOjE3NTgzNDc0Njl9.-uf8X7hUbkvy2H3ghplgPby3g8DovmAvvxMufIMuVEM
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJ1c2VybmFtZSI6IlRvbnkgTXdhaWxlbmdvIiwicm9sZXMiOlsyMDAxLG51bGwsNTE1MF19LCJpYXQiOjE3NTk4MTg1NDgsImV4cCI6MTc1OTgxODY2OH0.zluxVc6cD3kTGXXF2zvDYW0cm4YF720zWKPj5sZEleI
 
 ###create new employee
 POST http://localhost:3500/employees
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJ1c2VybmFtZSI6IkJpZW4gQ2hpbWFubyIsInJvbGVzIjpbMjAwMSwxOTg0LDUxNTBdfSwiaWF0IjoxNzU4MzQ3MzQ5LCJleHAiOjE3NTgzNDc0Njl9.-uf8X7hUbkvy2H3ghplgPby3g8DovmAvvxMufIMuVEM
-Content-Type: application/json  
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJ1c2VybmFtZSI6IlRvbnkgTXdhaWxlbmdvIiwicm9sZXMiOlsyMDAxLG51bGwsNTE1MF19LCJpYXQiOjE3NTk4MTg1NDgsImV4cCI6MTc1OTgxODY2OH0.zluxVc6cD3kTGXXF2zvDYW0cm4YF720zWKPj5sZEleI  
+Content-Type: application/json
 
 {
-    "firstname": "joseph",
-    "lastname": "Jesse"
+    "firstname": "Joseph",
+    "lastname": "salim"
 }
 
 ###update employee
 PUT http://localhost:3500/employees 
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJ1c2VybmFtZSI6IkJpZW4gQ2hpbWFubyIsInJvbGVzIjpbMjAwMSwxOTg0LDUxNTBdfSwiaWF0IjoxNzU4MzQ3MzQ5LCJleHAiOjE3NTgzNDc0Njl9.-uf8X7hUbkvy2H3ghplgPby3g8DovmAvvxMufIMuVEM
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJ1c2VybmFtZSI6IlRvbnkgTXdhaWxlbmdvIiwicm9sZXMiOlsyMDAxLG51bGwsNTE1MF19LCJpYXQiOjE3NTk4MTgzNzQsImV4cCI6MTc1OTgxODQ5NH0.2qh9vBVBy1RVpju7Y5slDQNsXtutBGDc8uk-6i7dUzY
 Content-Type: application/json 
 
 {
-    "id": 3,
-    "firstname": "Rai",
-    "lastname": "Salim"
+    "firstname": "Amri",
+    "lastname": "hare"
 }
 
 ###delete employee
 DELETE http://localhost:3500/employees
 Content-Type: application/json  
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJ1c2VybmFtZSI6IkJpZW4gQ2hpbWFubyIsInJvbGVzIjpbMjAwMSwxOTg0LDUxNTBdfSwiaWF0IjoxNzU4MzQ3MzQ5LCJleHAiOjE3NTgzNDc0Njl9.-uf8X7hUbkvy2H3ghplgPby3g8DovmAvvxMufIMuVEM
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJ1c2VybmFtZSI6IlRvbnkgTXdhaWxlbmdvIiwicm9sZXMiOlsyMDAxLG51bGwsNTE1MF19LCJpYXQiOjE3NTk4MTg1NDgsImV4cCI6MTc1OTgxODY2OH0.zluxVc6cD3kTGXXF2zvDYW0cm4YF720zWKPj5sZEleI
 
 {
-    "id": 4
+    "id": 68e4b2c4e9b1c9b50fc60482
 }
 
 ###get employee by id
 GET http://localhost:3500/employees/3
+
+###add role
+POST http://localhost:3500/roleAssignment
+content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJ1c2VybmFtZSI6IlRvbnkgTXdhaWxlbmdvIiwicm9sZXMiOlsyMDAxXX0sImlhdCI6MTc1ODg2ODAyMiwiZXhwIjoxNzU4ODY4MTQyfQ.dJ6RuIYw__NeF_nbsyL7sbF9PhRo52Cb1UlIz3O28zw
+
+
+{
+    "user": "Bien Chimano", 
+    "roleName": "Editor" 
+}
+
+###remove role
+DELETE http://localhost:3500/roleAssignment
+content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJ1c2VybmFtZSI6IlRvbnkgTXdhaWxlbmdvIiwicm9sZXMiOlsyMDAxXX0sImlhdCI6MTc1ODg2ODAyMiwiZXhwIjoxNzU4ODY4MTQyfQ.dJ6RuIYw__NeF_nbsyL7sbF9PhRo52Cb1UlIz3O28zw
+
+{
+    "user": "Bien Chimano", 
+    "roleName": "Editor" 
+}   

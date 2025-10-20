@@ -25,3 +25,8 @@
 20250917	09:48:08	127c0eec-bcc3-4faf-89d3-913ce9abb56b	TypeError: Cannot read properties of undefined (reading 'split')
 20250917	09:48:52	77cb19f6-9572-4122-9cd5-c07fa56fd6ea	TypeError: Cannot read properties of undefined (reading 'split')
 20250917	09:51:04	5848424f-c25b-44b1-ac5a-97eca8e15945	TypeError: Cannot read properties of undefined (reading 'split')
+20251006	08:28:33	e4041861-6c40-4fc6-aee8-58e6c7c16a67	TypeError: Cannot read properties of undefined (reading 'firstname')
+20251006	08:28:43	b44ae20e-e56d-4019-bc4d-2895922eeab4	TypeError: Cannot read properties of undefined (reading 'firstname')
+20251007	08:49:41	d3772106-8df4-4e0c-8223-15fce0fb2711	CastError: Cast to ObjectId failed for value "3" (type number) at path "_id" for model "Employee"
+20251007	09:28:33	21637f70-277b-4c36-aaa0-97e8c0f1c74b	SyntaxError: Unexpected token b in JSON at position 16
+20251007	09:30:01	47f51576-1720-4be0-8765-8e310bb62292	SyntaxError: Unexpected token b in JSON at position 16
