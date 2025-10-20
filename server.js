@@ -8,6 +8,7 @@ const { logger } = require('./middleware/logEvents');
 const errorHandler = require('./middleware/errorHandler');
 const verifyJWT = require('./middleware/verifyJWT');
 const cookieParser = require('cookie-parser');
+const credentials = require('./middleware/credentials');
 const mongoose = require('mongoose');
 const connectDB = require('./config/dbConn');
 const PORT = process.env.PORT || 3500;
@@ -43,7 +44,6 @@ app.use('/logout', require('./routes/logout'));
 
 app.use(verifyJWT);//potects routes below this line
 app.use('/employees', require('./routes/api/employees'));
-app.use('/roleAssignment', require('./routes/api/employees'));
 
 //i tied this but the client side preferred the json to the user friendly 404 page
 // app.use((req, res) => {
