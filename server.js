@@ -43,9 +43,9 @@ app.use('/logout', require('./routes/logout'));
 
 app.use(verifyJWT);//potects routes below this line
 app.use('/employees', require('./routes/api/employees'));
-app.use('/roleAssignment', require('./routes/api/employees'));
+app.use('/roleAssignment', require('./routes/api/roleAssignment'));
 
-//i tied this but the client side preferred the json to the user friendly 404 page
+//i tried this but the client side preferred the json to the user friendly 404 page
 // app.use((req, res) => {
 //     res.status(404);
 //     if (req.accepts('html')) {
